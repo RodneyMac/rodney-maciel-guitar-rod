@@ -1,0 +1,600 @@
+html {
+  box-sizing: border-box !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit !important;
+}
+
+body {
+  margin: 0 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  background: rgb(128, 127, 135);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 127, 135, 1) 0%,
+    rgba(186, 146, 148, 1) 0%,
+    rgba(14, 97, 140, 1) 0%,
+    rgba(47, 47, 47, 1) 0%,
+    rgba(45, 161, 168, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(13, 9, 9, 1) 48%,
+    rgba(98, 22, 22, 1) 100%,
+    rgba(133, 154, 162, 1) 100%
+  ) !important;
+}
+
+/*------------------------- Header -------------------------*/
+
+header {
+  padding: 16px 0 !important;
+}
+
+.head {
+  text-align: center !important;
+}
+
+h1 {
+  color: whitesmoke !important;
+  font-size: 35px !important;
+  font-style: italic !important;
+  font-weight: 100 !important;
+  text-decoration: line-through rgba(98, 22, 22, 1) !important;
+  text-align: center !important;
+  margin-top: 25px !important;
+}
+
+.subtitle {
+  color: cyan !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-top: 30px !important;
+}
+
+/*------------------------- Holder class -------------------------*/
+
+.holder {
+  margin: 0 auto !important;
+}
+
+/*------------------------- Navbar -------------------------*/
+
+ul {
+  margin: auto !important;
+}
+
+ul li {
+  margin-left: 4px !important;
+}
+
+.logo {
+  cursor: pointer !important;
+  display: flex !important;
+  margin: auto !important;
+}
+
+nav ul li a:hover {
+  background-color: #246068 !important;
+  border-radius: 4px !important;
+}
+
+nav ul li a.activo {
+  background-color: #246068 !important;
+  border-radius: 4px !important;
+}
+
+.navbar-toggler-icon {
+  color: whitesmoke !important;
+}
+
+/*------------------------- Carousel -------------------------*/
+
+.carousel-inner {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+.slide {
+  margin-top: 10px !important;
+  height: 25vw !important;
+}
+
+/*------------------------- Main -------------------------*/
+
+h2 {
+  font-weight: 400 !important;
+  color: #246068;
+  margin: 20px 0 16px !important;
+}
+
+.texto {
+  color: whitesmoke !important;
+}
+
+/*------------------------- Footer ------------------------- */
+
+footer {
+  background-color: #212529 !important;
+  color: whitesmoke;
+  text-align: center !important;
+  padding: 20px 0 !important;
+  clear: both !important;
+  margin-top: 30px !important;
+  position: sticky !important;
+}
+
+/*------------------------- Home -------------------------*/
+
+.columnas {
+  overflow: hidden !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.izquierda {
+  width: 60% !important;
+  float: left !important;
+}
+
+.derecha {
+  float: right !important;
+}
+
+.caja1 {
+  background-image: url("../img/Accesorios/fondo-metal.png") !important;
+  padding: 16px !important;
+  border-radius: 4px !important;
+  box-shadow: 2px 2px 10px black !important;
+}
+
+.caja1 .estilos {
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 20px !important;
+  color: #2f0c0c !important;
+}
+
+.variedad-p {
+  font-size: 14px !important;
+  text-align: center !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+/*------------------------- Accesorios -------------------------*/
+
+.accesorios h2 {
+  color: #246068 !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+}
+
+.accesorios p {
+  font-size: 14px !important;
+  color: whitesmoke !important;
+  text-align: center !important;
+}
+
+.sonido h2 {
+  color: #246068 !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+}
+
+.productos {
+  overflow: hidden !important;
+}
+
+.producto {
+  width: 18% !important;
+  float: left !important;
+  border: 1px solid #246068 !important;
+  border-radius: 10px !important;
+  margin-left: 2.5% !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+
+.producto img {
+  border-radius: 50% !important;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5) !important;
+  margin: 16px 0 10px !important;
+  width: 50% !important;
+  cursor: pointer !important;
+}
+
+.producto .img-1 {
+  width: 75% !important;
+  cursor: pointer !important;
+}
+
+.producto:hover {
+  background: #16232c !important;
+  transition: all 0.7s linear !important;
+}
+
+.producto h5 {
+  color: #246068 !important;
+  font-size: 18px !important;
+  margin: 0 !important;
+}
+
+.producto h6 {
+  color: #246068 !important;
+  margin: 6px 0 0 !important;
+  font-size: 14px !important;
+  font-style: italic !important;
+}
+
+.producto p {
+  font-size: 12px !important;
+  padding: 0 7px !important;
+  line-height: 18px !important;
+  color: whitesmoke !important;
+}
+
+.producto:first-child {
+  margin-left: 0 !important;
+}
+
+/*------------------------- Guitarras -------------------------*/
+
+.btn-dark:hover {
+  background: cyan !important;
+  color: #212529 !important;
+  font-weight: bold !important;
+  transition: all 0.7s linear !important;
+}
+
+.card {
+  border: 1px solid #246068 !important;
+  border-radius: 10px !important;
+  background: transparent !important;
+}
+
+.card:hover {
+  background: #16232c !important;
+  transition: all 0.7s linear !important;
+}
+
+.card-body {
+  text-align: center !important;
+}
+
+.card h5,
+.card h6,
+.card h4 {
+  color: #246068 !important;
+}
+
+.card img {
+  cursor: pointer !important;
+}
+
+.card-img-top {
+  margin-top: 12px !important;
+  cursor: pointer !important;
+  height: 15vh !important;
+}
+
+.card p {
+  color: whitesmoke !important;
+}
+
+.carrito-vacio {
+  color: #246068 !important;
+  text-align: center !important;
+}
+
+.fa-cart-plus {
+  color: cyan !important;
+  cursor: pointer !important;
+}
+
+.items-tabla {
+  color: #246068 !important;
+}
+
+.precio {
+  color: cyan !important;
+}
+
+.template-car {
+  color: whitesmoke !important;
+}
+
+.total-productos {
+  color: #246068 !important;
+}
+
+.td-total-productos,
+.td-span-footer {
+  color: whitesmoke !important;
+}
+
+/*------------------------- Novedades -------------------------*/
+
+.contenido-novedades {
+  overflow: hidden !important;
+}
+
+.nuevo-novedades.left,
+.nuevo-novedades.right {
+  width: 40% !important;
+  border: 1px solid #246068 !important;
+  border-radius: 10px !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+
+.nuevo-novedades.left:hover,
+.nuevo-novedades.right:hover {
+  background: #16232c !important;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear !important;
+}
+
+.nuevo-novedades.left img,
+.nuevo-novedades.right img {
+  border-radius: 6% !important;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5) !important;
+  margin: 16px 0 10px !important;
+  cursor: pointer !important;
+}
+
+.nuevo-novedades.left img {
+  width: 50% !important;
+}
+
+.nuevo-novedades.right img {
+  width: 45% !important;
+}
+
+.nuevo-novedades.left h5,
+.nuevo-novedades.right h5 {
+  color: #246068 !important;
+  font-size: 18px !important;
+  margin: 0 !important;
+}
+
+.nuevo-novedades.left h6,
+.nuevo-novedades.right h6 {
+  color: #246068 !important;
+  font-size: 14px !important;
+  font-style: italic !important;
+}
+
+.nuevo-novedades.left p,
+.nuevo-novedades.right p {
+  font-size: 14px !important;
+  padding: 0 7px !important;
+  line-height: 18px !important;
+  color: whitesmoke !important;
+}
+
+.nuevo-novedades.left {
+  float: left !important;
+  margin: 2% !important;
+}
+
+.nuevo-novedades.right {
+  float: right !important;
+  margin: 2% !important;
+}
+
+.novedades {
+  text-align: center !important;
+  color: #246068 !important;
+}
+
+.h2-novedades {
+  text-align: center !important;
+  color: #246068 !important;
+}
+
+.p-novedades {
+  text-align: center !important;
+  color: whitesmoke !important;
+  font-size: 14px !important;
+}
+
+.title {
+  color: cyan !important;
+  text-align: center !important;
+}
+
+.video {
+  width: 50% !important;
+  border: 1px solid whitesmoke !important;
+  border-radius: 6px !important;
+}
+
+.video:hover {
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear !important;
+}
+
+.video-guitar-demo {
+  text-align: center !important;
+}
+
+/*------------------------- Contacto -------------------------*/
+
+.columna {
+  width: 49% !important;
+  box-sizing: border-box !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.left-column {
+  float: left !important;
+  margin-top: 30px !important;
+}
+
+.right-column {
+  float: right !important;
+  margin-top: 50px !important;
+  padding-left: 30px !important;
+}
+
+.right-column p {
+  font-size: 14px !important;
+  color: whitesmoke !important;
+}
+
+.columna .right-column ul li {
+  font-size: 13px !important;
+}
+
+.centrar {
+  text-align: center !important;
+}
+
+.formulario {
+  border: thin solid #246068 !important;
+  border-radius: 6px !important;
+  margin-top: 50px !important;
+  margin-bottom: 60px !important;
+  margin-left: 20px !important;
+  width: 90% !important;
+  background: rgb(128, 127, 135) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 127, 135, 1) 0%,
+    rgba(186, 146, 148, 1) 0%,
+    rgba(206, 208, 209, 1) 0%,
+    rgba(47, 47, 47, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(215, 215, 215, 1) 0%,
+    rgba(0, 90, 97, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 84, 93, 1) 100%,
+    rgba(179, 179, 179, 1) 100%,
+    rgba(60, 39, 39, 1) 100%
+  ) !important;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  border-radius: 5px !important;
+  border: 1px solid #dedede !important;
+  font-size: 14px !important;
+  padding: 8px !important;
+  width: 90% !important;
+  outline: none !important;
+  line-height: 1 !important;
+  color: black !important;
+  display: flex !important;
+  margin: auto !important;
+  margin-top: 15px !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: rgb(83, 3, 187) !important;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.campo-texto {
+  display: flex !important;
+}
+
+input[type="submit"] {
+  border: thin solid #246068 !important;
+  border-radius: 0.25rem !important;
+  padding: 0.5rem 1rem !important;
+  display: flex !important;
+  margin: auto !important;
+  margin-top: 20px !important;
+  background-color: #0e618c !important;
+  color: whitesmoke !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  transition: 0.8s ease all !important;
+}
+
+input[type="submit"]:hover {
+  background: cyan !important;
+  color: #212529 !important;
+}
+
+.columna ul li {
+  list-style: none !important;
+  display: inline-block !important;
+}
+
+.fab {
+  width: 50px !important;
+}
+
+.fab:hover {
+  color: cyan !important;
+  transition: 0.8s ease all !important;
+}
+
+.fa-facebook {
+  color: #3b5998 !important;
+  cursor: pointer !important;
+}
+
+.fa-instagram {
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
+}
+
+.fa-twitter {
+  color: #55acee !important;
+  cursor: pointer !important;
+}
+
+.fa-whatsapp {
+  color: #4dc247 !important;
+  cursor: pointer !important;
+}
+
+.wrapp-input {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 50px !important;
+}
+
+.icon-eye {
+  cursor: pointer !important;
+  position: absolute !important;
+  margin-left: 80% !important;
+  margin-top: 2% !important;
+  color: rgb(30, 39, 168) !important;
+  transition: 0.8s ease all !important;
+}
+
+.icon-eye:hover {
+  color: steelblue !important;
+}
+
+.pie-contacto {
+  position: sticky;
+}
+
+.main-contacto {
+  margin-bottom: 30%;
+}

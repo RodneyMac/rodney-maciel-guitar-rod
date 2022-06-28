@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imagen": "img/Guitarras/g6.png",
+    "titulo": "Stratocaster",
+    "precio": 60000
+  },
+  {
+    "id": 2,
+    "imagen": "img/Guitarras/g4.png",
+    "titulo": "Les Paul",
+    "precio": 55000
+  },
+  {
+    "id": 3,
+    "imagen": "img/Guitarras/g7.png",
+    "titulo": "Flying V",
+    "precio": 80000
+  },
+  {
+    "id": 4,
+    "imagen": "img/Guitarras/g1.png",
+    "titulo": "Explorer",
+    "precio": 75000
+  }
+]
